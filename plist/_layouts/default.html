@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="theme-color" content="#f3efe4">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="document">
+    <a class="back" href="./">← 이런곡으로</a>
+    <article class="policy">
+      {{ content }}
+    </article>
+  </main>
+</body>
+</html>
