@@ -66,14 +66,10 @@ h1 span { color: var(--olive); }
   margin-top: 34px;
 }
 
-.store-button {
-  display: inline-block;
-  padding: 13px 19px;
-  border-radius: 999px;
-  color: #fff;
-  background: var(--ink);
-  font-size: .9rem;
-  font-weight: 700;
+.app-store-badge {
+  display: block;
+  width: auto;
+  height: 48px;
 }
 
 .text-link { text-underline-offset: 5px; }
