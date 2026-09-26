@@ -1,6 +1,6 @@
 # 이런곡으로 웹사이트
 
-`unnnyong.plist.io`에서 제공하는 이런곡으로 앱 소개 및 고객지원 사이트입니다.
+`unnnyong.plist.io/plist/`에서 제공하는 이런곡으로 앱 소개 및 고객지원 사이트입니다.
 
 ## GitHub Pages 설정
 
@@ -15,4 +15,11 @@ AdMob 파일은 다음 주소에서 제공됩니다.
 
 ```text
 https://unnnyong.plist.io/app-ads.txt
+```
+
+앱 소개와 개인정보 처리방침은 `plist/` 하위 경로에서 제공됩니다.
+
+```text
+https://unnnyong.plist.io/plist/
+https://unnnyong.plist.io/plist/privacy.html
 ```
