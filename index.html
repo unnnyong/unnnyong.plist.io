@@ -3,10 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=plist/">
-  <title>이런곡으로</title>
+  <meta name="description" content="원하는 음악을 한 줄로 적으면 Apple Music 플레이리스트로 만들어 주는 iPhone·iPad 앱, 이런곡으로">
+  <meta name="theme-color" content="#f3efe4">
+  <title>이런곡으로 — 한 줄로 만드는 플레이리스트</title>
+  <link rel="stylesheet" href="plist/styles.css">
 </head>
 <body>
-  <p><a href="plist/">이런곡으로 소개 페이지로 이동</a></p>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow">이런곡으로</div>
+      <h1 id="hero-title">원하는 음악을<br><span>한 줄로.</span></h1>
+      <p class="lead">듣고 싶은 장면과 기분을 적어 보세요. AI가 곡과 순서를 제안하고, Apple Music에서 실제 곡을 확인해 플레이리스트로 정리합니다.</p>
+      <div class="actions">
+        <span class="store-button" aria-label="App Store에서 다운로드">App Store에서 다운로드</span>
+      </div>
+    </section>
+
+    <section class="note" aria-label="앱 사용 흐름">
+      <div class="paper">
+        <p class="label">오늘의 리퀘스트</p>
+        <p class="request">“비 오는 밤, 창가에서 조용히 듣고 싶은 곡”</p>
+        <div class="fold" aria-hidden="true"></div>
+        <div class="meta">
+          <span>균형 있게</span>
+          <span>약 45분</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" aria-label="주요 기능">
+      <article>
+        <span>01</span>
+        <h2>한 문장으로 시작</h2>
+        <p>장르를 몰라도 괜찮습니다. 장면, 분위기, 함께 듣는 사람을 자연스럽게 적어 주세요.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>실제 곡으로 확인</h2>
+        <p>추천된 곡을 현재 지역의 Apple Music 카탈로그에서 다시 찾아 확인합니다.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>바로 보관함에</h2>
+        <p>순서를 살펴보고 다듬은 뒤 Apple Music 플레이리스트로 저장할 수 있습니다.</p>
+      </article>
+    </section>
+
+    <section class="privacy" aria-labelledby="privacy-title">
+      <div>
+        <p class="eyebrow">Privacy</p>
+        <h2 id="privacy-title">필요한 만큼만 연결합니다.</h2>
+      </div>
+      <p>회원가입 없이 사용할 수 있습니다. 플레이리스트 생성을 위해 사용자가 입력한 리퀘스트와 선택한 설정이 OpenAI API로 전송되며, 곡 검색과 저장에는 Apple Music을 이용합니다. 앱 이용 분석과 선택형 보상 광고에는 Google Firebase 및 AdMob이 사용될 수 있습니다. 앱은 App Tracking Transparency 권한을 요청하지 않습니다.</p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>이런곡으로</strong>
+    <nav aria-label="하단 링크">
+      <a href="plist/privacy.html">고객지원 및 개인정보 처리방침</a>
+      <a href="mailto:unnnyong@icloud.com">unnnyong@icloud.com</a>
+    </nav>
+    <small>© 2026 unnnyong. Apple Music은 Apple Inc.의 상표입니다.</small>
+  </footer>
 </body>
 </html>
