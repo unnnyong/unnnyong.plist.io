@@ -72,6 +72,16 @@ h1 span { color: var(--olive); }
   height: 48px;
 }
 
+.app-store-link {
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.app-store-link:focus-visible {
+  outline: 3px solid var(--olive);
+  outline-offset: 5px;
+}
+
 .text-link { text-underline-offset: 5px; }
 
 .note {
